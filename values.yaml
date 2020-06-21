@@ -1,0 +1,8 @@
+modresort:
+  deployment:
+    repository: kpostreich/modresort
+    tag: "1.0"
+    pullPolicy: Always
+  service:
+    type: NodePort
+
